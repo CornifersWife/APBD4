@@ -2,7 +2,7 @@
 
 public enum Category
 {
-    pies,
-    kot,
-    lew
+    Pies,
+    Kot,
+    Lew
 }

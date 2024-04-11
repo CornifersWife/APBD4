@@ -7,7 +7,7 @@ public class AnimalService : IAnimalService {
         return animalList;
     }
 
-    public Animal? GetAnimal(int id) {
+    public Animal GetAnimal(int id) {
         return animalList.FirstOrDefault(animal => animal.Id == id);
     }
 

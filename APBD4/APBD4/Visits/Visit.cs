@@ -1,6 +1,6 @@
 ﻿using APBD4.Animals;
 
-namespace APBD4;
+namespace APBD4.Visits;
 
 public class Visit
 {

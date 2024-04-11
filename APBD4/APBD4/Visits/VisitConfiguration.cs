@@ -2,7 +2,7 @@
 
 namespace APBD4.Visits;
 
-public static class Configuration {
+public static class VisitConfiguration {
     public static void RegisterEndpointsForVisits(this IEndpointRouteBuilder app) {
         app.MapGet("/api/v1/visits", (Animal animal, IVisitService service) => {
                 return TypedResults.Ok(service.GetAnimalVisits(animal));
