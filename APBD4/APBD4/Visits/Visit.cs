@@ -4,10 +4,10 @@ namespace APBD4;
 
 public class Visit
 {
-    Animal animal;
-    DateTime dateTime;
-    string? description;
-    float price;
+    public Animal animal;
+    public DateTime dateTime;
+    public string? description;
+    public float price;
 
 
     public Visit(Animal animal, DateTime dateTime, string? description, float price)
