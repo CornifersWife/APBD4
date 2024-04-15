@@ -4,15 +4,15 @@ namespace APBD4.Visits;
 
 public class Visit
 {
-    public Animal animal;
-    public DateTime dateTime;
-    public string? description;
-    public float price;
+    public int animalId { get; set; }
+    public DateTime dateTime { get; set; }
+    public string? description { get; set; }
+    public float price { get; set; }
 
 
-    public Visit(Animal animal, DateTime dateTime, string? description, float price)
+    public Visit(int animalId, DateTime dateTime, string? description, float price)
     {
-        this.animal = animal;
+        this.animalId = animalId;
         this.dateTime = dateTime;
         this.description = description;
         this.price = price;

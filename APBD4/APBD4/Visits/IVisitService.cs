@@ -3,6 +3,6 @@
 namespace APBD4.Visits;
 
 public interface IVisitService {
-    public List<Visit> GetAnimalVisits(Animal animal);
+    public List<Visit> GetAnimalVisits(int idAnimal);
     public void AddNewVisit(Visit newVisit);
 }

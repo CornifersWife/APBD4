@@ -1,7 +1,7 @@
 ﻿namespace APBD4.Animals;
 
 public class AnimalService : IAnimalService {
-    private static List<Animal> animalList = new List<Animal>();
+    public static List<Animal> animalList = new List<Animal>();
 
     public List<Animal> GetAnimals() {
         return animalList;
